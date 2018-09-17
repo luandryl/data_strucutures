@@ -1,0 +1,21 @@
+{
+  "name": "ll_js",
+  "version": "1.0.0",
+  "description": "Linked List JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/app.build.js",
+    "build": "webpack",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.2.1"
+  }
+}
